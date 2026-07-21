@@ -214,56 +214,6 @@ mkdir -p ~/.claude/skills
 
 ---
 
-## GitHub Pages 部署
-
-本项目使用 GitHub Pages 发布。
-
-仓库中需要保留：
-
-```text
-index.html
-README.md
-```
-
-进入仓库：
-
-```text
-Settings → Pages
-```
-
-配置：
-
-```text
-Source: Deploy from a branch
-Branch: main
-Folder: / (root)
-
-```
-
-保存后即可通过以下地址访问：
-
-```text
-https://lqs-github.github.io/2026EAGLE-skills/
-
-```
-
----
-
-## 更新网页
-
-修改网页后，将新的 `index.html` 上传至仓库并覆盖原文件。
-
-提交信息可以填写：
-
-```text
-Update Skills directory
-
-```
-
-GitHub Pages 通常会在几分钟内完成更新，公开网址不会改变，原有二维码也可以继续使用。
-
----
-
 ## 安全提示
 
 本项目主要整理公开 GitHub 仓库和社区 Agent Skills，不代表对所有代码进行过完整安全审计。
